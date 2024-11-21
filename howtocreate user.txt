@@ -1,0 +1,10 @@
+1-after installing xampp and starting apache and mysql
+2-open mysql on button 'admin'
+3-create database bdd3
+4-create usuarios
+5-create columns for usuarios: usuario varchar (12)
+                               senha varchar (12)
+6-goto 'utilizator accounts'
+7-create utilizator admi with password 123, give him all perms
+
+done
