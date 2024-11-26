@@ -1,4 +1,4 @@
-1-put trabalho2/ folder into xampp/htdocs/
+1-put trabalho2/ folder into xampp/htdocs/dashboard/
 2-startup xampp
 3-start apache, start mysql
 4-get mysql port and put into msqli_connect functions on php files
