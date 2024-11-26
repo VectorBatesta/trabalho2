@@ -11,11 +11,12 @@
     $sql = mysqli_query($strcon, "SELECT * FROM usuarios") or die(mysqli_error($cx));
     
     //pecorrendo os registros da consulta.
+    header('Content-Type: text/plain');
+    echo "------------------------------------------\n";
     while($aux = mysqli_fetch_assoc($sql)) {
-        echo "-----------------------------------------<br />";
-        echo "Nome Usuario:".$aux["usuario"]."<br />";
-        echo "senha:".$aux["senha"]."<br />";
+        echo "| Nome Usuario: ".$aux["usuario"]."\t; Senha: ".$aux["senha"]."\t|\n";
     }
+    echo "------------------------------------------\n";
     
-    echo "<br>FIM DA PESQUISA";
+    echo "FIM DA PESQUISA";
 ?>

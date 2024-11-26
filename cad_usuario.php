@@ -15,5 +15,5 @@
     mysqli_query($strcon, $sql) or die("Erro ao tentar cadastrar registro.");
     mysqli_close($strcon);
     echo "Usuário cadastrado com sucesso!!!!";
-    echo "<a href='index.php'>Clqieu aqui para página principal</a><br>"; 
+    echo "<a href='index.html'>Clqieu aqui para página principal</a><br>"; 
 ?>

@@ -1,7 +1,7 @@
 1-after installing xampp and starting apache and mysql
 2-open mysql on button 'admin'
 3-create database bdd3
-4-create usuarios
+4-create banco usuarios de tam coluna 2
 5-create columns for usuarios: usuario varchar (12)
                                senha varchar (12)
 6-goto 'utilizator accounts'
